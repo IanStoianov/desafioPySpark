@@ -32,8 +32,11 @@ Verificar com o comando \dt se a tabela foi criada
   - Subir a pasta do projeto, a DAG já leva em conta a existência do módulo do código
   - Garantir a presença das libs requests, pyspark, e que o Hadoop esteja presente e configurado
     - Versões usadas:
+      
       Python 3.11.9
+      
       pyspark 3.5.3
+      
       Hadoop 3.3.6
 
 5 - Executar a DAG
