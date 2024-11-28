@@ -5,9 +5,11 @@
 #Guia para execução:
 
 1 - Criar um volume no docker com o seguinte comando:
+
 docker volume create postgres_volume
 
 2 - Subir o postgres usando imagem oficial do docker, com as seguintes configurações
+
 docker run --name=postgresdb -e POSTGRES_PASSWORD=secret -p 5499:5432 -d -v postgres_volume:/var/lib/postgresql/data postgres
 
 3.1 (opcional) - Conectar no postgres pelo pgAdmin com as seguinte configurações:
